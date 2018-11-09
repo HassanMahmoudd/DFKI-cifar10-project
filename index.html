@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-6 col-md-offset-3" style="margin-top:20">
                         <img src="images/poster.PNG">
 
                     </div>
@@ -46,14 +46,30 @@
                         <div class="row">
                             <h3 class="">Description:</h3>
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12" style="margin-top:20">
                                     -   This project is a test project for DFKI HIWI position on Applied Machine Learning.    
                                 </div>
-                                <div class="col-md-12">
-                                    -   It's an image classification application trained on cifar10 popular dataset.    
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   It's an image classification task trained on "cifar10" popular dataset.    
                                 </div>
-                                <div class="col-md-12">
-                                    -   This app can classify any image into one of 10 categories as follows:-    
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   It's a total of 60,000 images of 10 classes or categories divied as follows:-.    
+                                </div>
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   45,000 image for the dataset, 5,000 image for the validation set, and 10,000 images for the testset.    
+                                </div>
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   Structure of model used in training can be found as follows:-    
+                                </div>
+                                <div class="col-md-6 col-md-offset-3" style="margin-top:20">
+                                    <img src="images/model.PNG">
+
+                                </div>
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   Accuracy obtained on the testset was about 62% and when use augmentation of dataset to increase accuracy, it reached acout 69%.    
+                                </div>
+                                <div class="col-md-12" style="margin-top:20">
+                                    -   This application can classify any image into one of 10 categories as follows:-    
                                 </div>
                                 <div class="col-md-6 col-md-offset-3" style="margin-top:25">
                                     'Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck'    
@@ -65,11 +81,11 @@
                     <div class="row">
                         <div class="row">
                             <h3 class="">Log Output:</h3>
-                            <div id="log"></div>
+                            <div id="log" class="col-md-12"></div>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row" style="margin-bottom:75">
                         <div class="row">
                             <h3 class="">Predict</h3>
                             <button type="button" class="btn btn-primary" id="selectTestDataButton" disabled>Please wait until model is ready ...</button>
@@ -77,7 +93,7 @@
                         </div>
                     </div>
                     
-                    <div class="row">
+                    <div class="row" style="margin-bottom:25">
                         <div class="row">
                             <input type="file" id="files" hidden name="files[]" multiple style="display:none" />
                             <output id="list"></output>
