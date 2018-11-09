@@ -1,0 +1,391 @@
+body {
+    padding-bottom: 40px;
+    background: url('../images/resume-bg.png') center 48% no-repeat fixed;
+}
+
+hr {
+    border-color: #aaa;
+    background-color: #aaa;
+    color: #aaa
+}
+
+/*
+.hm-background {
+    padding-bottom: 40px;
+    background: url('../images/resume-bg.png') center 48% no-repeat fixed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;    
+}
+*/
+
+.navbar-custom-cv .brand {
+    margin-top: 38px
+}
+
+.navbar-custom-cv .brand a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar-custom-cv .brand a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.navbar-custom-cv .links {
+    width: 100%;
+    margin-top: 20px
+}
+
+.navbar-custom-cv .links li a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.navbar-custom-cv .links li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+
+.navbar-custom-cv .links li {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    cursor: auto;
+    text-shadow: none;
+    font-size: 25px
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .navbar-custom-cv .container {
+        margin-left: auto !important;
+    }
+}
+
+.resume-header {
+    margin-top: 20px
+}
+
+.resume-header .container {
+    text-align: center;
+}
+
+.resume-header-row {
+    height: 250px;
+    z-index: 99999
+}
+
+.resume-header .resume-photo {
+    height: 100%;
+    z-index: 99999
+}
+
+.resume-header .resume-photo img {
+    height: 100%;
+    z-index: 99999
+}
+
+.resume-header h1 {
+    font-weight: bold;
+    margin-bottom: 0
+}
+
+.personal {
+    margin-top: 40px
+}
+
+.personal .personal-data {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    width: 49%;
+    margin-right: 2%
+    
+}
+
+.personal .personal-data i {
+    margin-right: 20px
+}
+
+.personal .personal-data .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .personal-data .specs .labelname {
+    font-weight: bold
+}
+
+.personal .personal-data .specs .row:not(:last-of-type) {
+    margin-bottom: 20px
+}
+
+.personal .personal-data .specs a {
+    text-decoration: none;
+    color: #000
+}
+
+.personal .personal-data .specs a:hover {
+    color: #aaa
+}
+
+.personal .education {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    width: 49%;
+    height: 493px
+    
+}
+
+.personal .education i {
+    margin-right: 20px
+}
+
+.personal .education .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .education .specs .labelname {
+    margin-bottom: 30px
+}
+
+.personal .education .specs .labelname a{
+    margin-left: 10px
+}
+
+.personal .education .specs .row:not(:last-of-type) {
+    margin-bottom: 20px
+}
+
+@media (max-width: 768px) {
+    .personal .personal-data {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+    
+    .personal .education {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+}
+
+.personal .experience {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .experience i {
+    margin-right: 20px
+}
+
+.personal .experience .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .experience .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .experience .specs .labelname a{
+    margin-left: 10px
+}
+
+.personal .experience .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .experience .row hr {
+    display: block;
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (max-width: 768px) {
+    .personal .experience {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+}
+
+.personal .skills {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .skills i {
+    margin-right: 20px
+}
+
+.personal .skills .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .skills .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .skills .specs .java-bar {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #000
+}
+
+.personal .skills .specs .java {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    //margin-left: 10px;
+    
+}
+
+.personal .skills .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+@media (max-width: 768px) {
+    .personal .skills {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+    
+    .personal .skills .specs .labelname {
+        margin-bottom: 20px
+    }
+    
+    .personal .skills .specs .java-bar {
+        margin-top: 0;
+        margin-bottom: 40px;
+        margin-left: 0;
+        border: 1px solid #000
+    }
+}
+
+.personal .projects {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .projects i {
+    margin-right: 20px
+}
+
+.personal .projects .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .projects .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .projects .specs a {
+    text-decoration: none;
+    color: #000
+}
+
+.personal .projects .specs a:hover {
+    color: #aaa
+}
+
+.personal .projects .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .projects .row hr {
+    display: block;
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (max-width: 768px) {
+    .personal .projects {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+}
+
+.personal .languages {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .languages i {
+    margin-right: 20px
+}
+
+.personal .languages .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .languages .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .languages .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .languages .row hr {
+    display: block;
+    width: 94%;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (max-width: 768px) {
+    .personal .languages {
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 20px
+
+    }
+}

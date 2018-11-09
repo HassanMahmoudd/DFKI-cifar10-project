@@ -1,0 +1,100 @@
+<html lang="en">
+    <link rel="image_src" href="https://hassanmahmoudd.github.io/images/Slider02.jpg" />
+        <link rel="icon" type="image/png" href="images/Brand-01-black-Noshadow.png" />
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/default_theme.css">
+        <link rel="stylesheet" href="css/hover.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:400,700'>
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    <body>
+        <style>
+            .prediction-canvas{
+                width: 100px;
+                margin: 20px;
+            }
+            .prediction-div{
+                display: inline-block;
+                margin: 10px;
+            }
+        </style>
+
+        <div class="container" style="padding-top: 20px">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>DFKI Test Project - Image Classification</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <img src="images/poster.PNG">
+
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="row">
+                        <div class="row">
+                            <h3 class="">Description:</h3>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    -   This project is a test project for DFKI HIWI position on Applied Machine Learning.    
+                                </div>
+                                <div class="col-md-12">
+                                    -   It's an image classification application trained on cifar10 popular dataset.    
+                                </div>
+                                <div class="col-md-12">
+                                    -   This app can classify any image into one of 10 categories as follows:-    
+                                </div>
+                                <div class="col-md-6 col-md-offset-3" style="margin-top:25">
+                                    'Airplane', 'Automobile', 'Bird', 'Cat', 'Deer', 'Dog', 'Frog', 'Horse', 'Ship', 'Truck'    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="row">
+                            <h3 class="">Log Output:</h3>
+                            <div id="log"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="row">
+                            <h3 class="">Predict</h3>
+                            <button type="button" class="btn btn-primary" id="selectTestDataButton" disabled>Please wait until model is ready ...</button>
+                            <div id="predictionResult"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="row">
+                            <input type="file" id="files" hidden name="files[]" multiple style="display:none" />
+                            <output id="list"></output>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-2.2.4.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+        
+        <script src="js/index.js"></script>
+    </body>
+</html>
